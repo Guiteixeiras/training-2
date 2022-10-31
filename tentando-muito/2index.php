@@ -14,12 +14,12 @@
     <?php
     $nome = $_GET["nome"];
     $sobrenome = $_GET["sobrenome"];
-    $ano = $_GET["idade"];
+    $ano = $_GET["ano"];
     $sexo = $_GET["sexo"];
     
     $idade = date("Y") - $ano;
     
-    echo "$nome é do sexo $sexo e tem $ano anos"
+    echo "$nome é do sexo $sexo e tem $idade anos"
     
     ?>
 </body>
