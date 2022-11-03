@@ -24,16 +24,19 @@ echo " e com esta media o aluno $a";
 
 //ver se pode dirigr e votar
 
-/*
 $idade = $_GET["idade"];
 
-if ($idade>=18) {
-    $a = "pode votar";
-    $b = "pode dirigir";
-}else {
-    $a = "não pode votar";
-    $b = "não pode dirigir";
+if ($idade <= 16) {
+    $c = "não pode votar";
+    $v = "não pode dirigir";
+} else {
+    if ($idade >= 16 && $media < 18) {
+        $c = "pode votar caso queira";
+        $v = "não pode dirigir";
+    } else {
+        $c = "é para votar";
+        $v = "pode dirigir";
+    }
 }
 
-echo "com esta idade você $a e também $b :)";
-*/
+echo "\n sua idade é de $idade anos e com esta idade você $c e também $v :)";
