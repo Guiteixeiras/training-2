@@ -19,7 +19,7 @@
     
     $idade = date("Y") - $ano;
     
-    echo "$nome é do sexo $sexo e tem $idade anos"
+    echo "$nome $sobrenome é do sexo $sexo e tem $idade anos"
     
     ?>
 </body>
