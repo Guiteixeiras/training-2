@@ -8,6 +8,8 @@
     <title>Document</title>
 </head>
 
+<!--esse codigo so fundiona pelo shell-->
+
 <body>
 
     <input type="number" name="valor1">
