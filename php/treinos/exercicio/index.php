@@ -58,9 +58,10 @@ $porcentagem = 16;
 $produto = array("secador"=>"90", "moletom"=>"100", "celular"=>"900");
 $pro = $produto[$_GET["pro"]];
 $result = "$pro" * ("$porcentagem" / 100);
-$vf = "$result" / "$parcela";
+$ace = "$pro" - "$result";
+$vf = "$ace" / "$parcela";
 echo "<br> voce comprou um " . $_GET['pro'] . " pelo valor de R$ $pro,00 contudo com 16% de 
-desconto fica R$ $result,00 e parcelando 10 vezes fica R$ $vf,00";
+desconto fica R$ $ace,00 e parcelando 10 vezes fica R$ $vf,00";
 
 //questão 8
 
