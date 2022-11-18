@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokedex gui</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="caixa">
+        <h1>Pokedex feita com <span>HTML</span>,
+            <span>CSS</span>, e <span>JavaScript</span>
+        </h1>
+        <hr>
+        <div class="logo">
+            <img src="imagens/pokemon-23-logo.png">
+        </div>
+        <form class="grupo">
+            <label>Nome ou numero do pokemon</label>
+            <input type="text" id="name" placeholder="Exemplo: pikachu ou 25" required>
+            <input type="submit" value="BUSCAR">
+        </form>
+        <div id="foto"></div>
+
+        <div id="content">
+            ...
+        </div>
+        <div id="stats"></div>
+    </div>
+
+    <script src="JS.js"></script>
+</body>
+
+</html>
