@@ -31,8 +31,12 @@ echo "O cliente $nome<br> comprou nesta quinta-feira um $tipo<br> da cor $cor<br
 //variavel
 $l1 = 15;
 $l1 += 20;
+$aaa = 1;
+$AAA = 6;
 
-echo "o valor é $l1";
+echo "aa deu $AAA <br>";
+EcHo "aa deu $aaa <br>";
+ECHO "o valor é $l1";
 
 //teste
 
